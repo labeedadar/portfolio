@@ -244,6 +244,11 @@ button:hover {
     margin: auto;
 }
 
+.sample-img {
+    width: 70%;
+    margin: auto;
+}
+
 .contact-me svg {
     width: 32px;
     height: 32px;
