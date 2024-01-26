@@ -68,7 +68,7 @@ nav li:first-child {
     position: fixed;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 100%;
     width: 250px;
     z-index: 999;
     background-color: #b432b4;
@@ -144,7 +144,7 @@ nav li:first-child {
     padding: 12px;
     justify-content: space-around;
     align-items: center;
-    height: 75vh;
+    height: 75%;
 }
 
 .about-me-detail {
@@ -269,7 +269,7 @@ h3 {
 }
 
 @media(max-width: 800px) {
-    .aboutMe {
+    .about-me {
         flex-direction: column;
     }
 
