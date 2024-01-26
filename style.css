@@ -1,0 +1,289 @@
+/* .navbar-bg-color {}
+
+.navbar-bg-color a {
+    color: rgb(255, 255, 255);
+} */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAVBAR START */
+nav {
+    background-color: #b432b4;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+svg {
+    fill: white;
+}
+
+/* body {
+    min-height: 100vh;
+    background-image: url(laptop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+
+nav a {
+    height: 50px;
+    padding: 0 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #ec2eec;
+    color: #f0f0f0;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #b432b4;
+    /* backdrop-filter: blur(10px); */
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: none;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.menu-btn {
+    display: none;
+}
+
+
+.nav-brand {
+    font-weight: bold;
+}
+
+/* NAVBAR END */
+/*.nav-brand {
+    padding: 10px !important;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin-top: 50px;
+}
+
+.nav-link {
+    position: relative;
+    padding-left: 55%;
+}
+
+.nav-link a {
+    padding: 0 10px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+} */
+
+.main {
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin: auto;
+}
+
+/* .name-heading {
+    padding: 54px 24px 0 24px;
+    text-align: left;
+} */
+
+.name-heading .auto-typing {
+    color: #b432b4
+}
+
+.about-me {
+    display: flex;
+    padding: 12px;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+}
+
+.about-me-detail {
+    padding: 0 24px;
+    width: 50%;
+    text-align: center;
+}
+
+.img {
+    width: 50%;
+}
+
+.pro-img {
+    width: 100%;
+    height: auto;
+}
+
+.about-btn {
+    background-color: #ec2eec;
+    color: #f0f0f0;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    width: 25vh;
+}
+
+button:hover {
+    background-color: #b432b4;
+    color: white;
+    font-weight: bold;
+}
+
+/* .name-heading {} */
+
+
+.experience,
+.strength,
+.skills,
+.contact-me {
+    width: 75%;
+    margin: auto;
+    padding: 12px;
+    text-align: center;
+}
+
+
+.exp-heading {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.exp-detail {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills svg {
+    width: 36px;
+    height: 36px;
+    fill: #b432b4;
+}
+
+.strength-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.strength-container ul {
+    list-style: none;
+}
+
+/* .strengths {
+    text-align: center;
+    margin: 6%;
+} */
+
+/* .strength-list {
+    display: flex;
+    text-align: center; 
+    justify-content: space-around;
+} */
+
+/* .strength-list-items {
+} */
+
+.past-work {
+    width: 75%;
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+}
+
+.contact-me svg {
+    width: 32px;
+    height: 32px;
+    fill: #b432b4;
+}
+
+.contact-heading {
+    padding-bottom: 18px;
+}
+
+.contact-me a {
+    color: #b432b4;
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+footer {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+
+@media(max-width: 800px) {
+    .aboutMe {
+        flex-direction: column;
+    }
+
+    .hide-element {
+        display: none;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+}
+
+@media(max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
