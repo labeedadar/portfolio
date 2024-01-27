@@ -284,7 +284,8 @@ footer {
     }
 
     .about-btn {
-        margin: 6px 0;
+        margin: 6px auto;
+
     }
 
     .hide-element {
