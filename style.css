@@ -81,6 +81,11 @@ nav li:first-child {
     display: none;
 }
 
+.headings {
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
 .sidebar li {
     width: 100%;
 }
@@ -262,20 +267,24 @@ button:hover {
 .contact-me a {
     color: #b432b4;
     text-decoration: none;
-    padding: 10px 24px;
+    padding: 0px 18px;
 }
 
 footer {
     text-align: center;
 }
 
-h3 {
-    margin-bottom: 15px;
+.footer-p {
+    margin: 24px 0 18px 0;
 }
 
 @media(max-width: 800px) {
     .about-me {
         flex-direction: column;
+    }
+
+    .about-btn {
+        margin: 6px 0;
     }
 
     .hide-element {
