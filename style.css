@@ -281,6 +281,8 @@ footer {
 @media(max-width: 800px) {
     .about-me {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .about-btn {
